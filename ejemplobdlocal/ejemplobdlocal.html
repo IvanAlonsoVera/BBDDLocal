@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ejemplo</title>
+	<script type="text/javascript" src="ejemplobdlocal.js"></script>
+	<style type="text/css">
+		table,th{
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<h1>Ejemplo BD local: indexedBD</h1>
+	<label for="campo1">campo1</label>
+	<input type="text" name="campo1" id="campo1">
+	<br>
+	<label for="campo1">campo2</label>
+	<input type="text" name="campo2" id="campo2">
+	<br>
+	<label for="campo1">campo3</label>
+	<input type="text" name="campo3" id="campo3">
+	<br><br>
+	<button onclick="guardar()">Guardar</button>
+	<button onclick="listar()">Listar</button>
+	<hr>
+	<table class="tabla">
+		<thead>
+			<th>campo 1</th>
+			<th>campo 2</th>
+			<th>campo 3</th>
+			<th>campo 4</th>
+		</thead>
+		<tbody id="cuerpotabla"></tbody>
+	</table>
+</body>
+</html>
