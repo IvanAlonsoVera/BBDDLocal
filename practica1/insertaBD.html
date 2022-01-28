@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="insertaBD.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<title>Ejercicio 2</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Formulario de Datos</h1>
+		<label for="nom">Nombre:</label><br>
+		<input type="text" name="nombre" id="nom"><br>
+		<label for="fec">Fecha de entrada:</label><br>
+		<input type="text" name="fec" id="fec"><br>
+		<label for="hor">Hora de entrada:</label><br>
+		<input type="text" name="hor" id="hor"><br>
+		<label for="des">Destino:</label><br>
+		<input type="text" name="des" id="des"><br>
+		<label for="con">Contacto:</label><br>
+		<input type="text" name="con" id="con"><br><br>
+		<input type="button" name="env" value="Enviar" id="env" onclick="guardar()" class="btn btn-success">
+	</div>
+</body>
+</html>
